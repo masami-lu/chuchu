@@ -10,6 +10,7 @@ public class Ti5 {
                 res.append(c);
             }
         }
+        System.out.println("hello");
         return res.toString();
     }
 }
