@@ -29,10 +29,10 @@ public class QuickShort {
             arr[l]=arr[r];
             arr[r]=temp;
             if (arr[l]==pivot){
-                l+=1;
+                r-=1;
             }
             if (arr[r]==pivot){
-                r-=1;
+                l+=1;
             }
         }
         if (l==r){
